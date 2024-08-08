@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    display: flex;
+}
+.listacontactos{
+    background-color: #EBEBE4;
+    width: 20vw;
+    min-height: 100vh; 
+    min-width:200px;
+    font-family: roboto, sans-serif;
+}
+
+.imagengrande{
+    background-color: lightpink;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:"open-sans", sans-serif;
+}
+.imagengrande img{
+    width:30%;
+}
+.avatar-usuario-conectado img{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+
+}
+.usuario-conectado{
+    display: flex;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border: 1px solid #cdcdcd;
+}
+.opciones-usuario-conectado{
+    display: flex;
+    justify-content: end;
+}
+.datos-usuario-conectado{
+    width:100%;
+    padding: 0% 0.5rem;
+    margin: 3%;
+}
+.status-usuario-conectado {
+    font-size: small;
+}
+.btn-nueno-chat{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    width: 100%;
+    border: 0;
+    
+}
+.div-boton-nuevo-chat{
+    padding: 1.5rem;
+border: 1px solid#cdcdcd;
+}
+.avatar-usuario-contacto img{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+.contacto{
+    display: flex;
+    padding: 1rem;
+    border: 1px solid #cdcdcd;
+    align-items: center;
+}
+.datos-usuario-conectado{
+    padding: 0.4rem;
+}
+.nombre-ususario-contacto{
+    font-size: 14px;
+}
+.status-usuario-contacto{
+    font-size: 12px;
+}
+.iconos1{
+    display: flex;
+    padding:  0.5rem ;
+    
+}
+.iconos2{
+    display: flex;
+    padding:  0.5rem ;
+    
+}
+
+    
+    
